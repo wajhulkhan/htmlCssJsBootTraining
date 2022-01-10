@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+function focused() {
+var e = document.getElementById('input');
+if (confirm('Focus Event')) {
+e.blur();
+}
+}
+</script>
+</head>
+<body>
+<p >Focus in the Input Box:</p>
+<input id="input" onfocus="focused()">
+</body>
+</html>
